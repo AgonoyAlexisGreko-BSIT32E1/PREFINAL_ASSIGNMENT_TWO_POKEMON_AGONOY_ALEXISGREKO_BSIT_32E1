@@ -1,0 +1,42 @@
+﻿@model Prefinals_AgonoyAlexisGreko_Pokemon.Models.Pokemon
+@{
+    ViewBag.Title = "Pokémon Details";
+}
+
+<head>
+    <link rel="stylesheet" type="text/css" href="~/css/PokemonDetails.css">
+</head>
+
+<h3>@Model.Name</h3>
+
+<h3>Abilities and Moves</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Abilities</th>
+            <th>Moves</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <ul>
+                    @foreach (var ability in Model.Abilities)
+                    {
+                        <li>@ability</li>
+                    }
+                </ul>
+            </td>
+            <td>
+                <ul class="two-column-list">
+                    @foreach (var move in Model.Moves)
+                    {
+                        <li>@move</li>
+                    }
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<a href="@Url.Action("PokemonList", "Pokemon")" class="btn btn-primary">Back to List</a>

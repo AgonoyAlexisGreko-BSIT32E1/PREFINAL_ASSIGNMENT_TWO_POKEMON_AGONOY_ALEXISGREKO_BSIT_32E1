@@ -1,0 +1,56 @@
+﻿/* pokemon.css */
+.pokemon-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 25px;
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+    .pokemon-table th, .pokemon-table td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .pokemon-table th {
+        background-color: blue;
+        font-size: 20px;
+        color: white;
+    }
+
+.pagination {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.pokemon-table a {
+    color: black;
+    text-decoration: none;
+}
+
+    .pokemon-table a:hover {
+        text-decoration: underline;
+    }
+
+.pagination a {
+    margin: 0 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+}
+
+    .pagination a:hover {
+        background-color: lightblue;
+        color: black;
+    }
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
