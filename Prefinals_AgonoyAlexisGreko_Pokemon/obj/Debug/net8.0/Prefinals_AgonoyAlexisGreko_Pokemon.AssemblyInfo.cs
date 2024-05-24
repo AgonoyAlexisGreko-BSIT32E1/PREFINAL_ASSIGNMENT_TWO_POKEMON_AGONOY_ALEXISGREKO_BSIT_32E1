@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Prefinals_AgonoyAlexisGreko_Pokemon")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2576c2986eeb6e36e441050b6a56325b6c3fe9be")]
 [assembly: System.Reflection.AssemblyProductAttribute("Prefinals_AgonoyAlexisGreko_Pokemon")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Prefinals_AgonoyAlexisGreko_Pokemon")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

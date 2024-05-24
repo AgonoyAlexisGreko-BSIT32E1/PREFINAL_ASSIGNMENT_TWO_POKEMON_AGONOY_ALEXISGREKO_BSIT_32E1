@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Prefinals_AgonoyAlexisGreko_Pokemon.props" />
+</Project>
