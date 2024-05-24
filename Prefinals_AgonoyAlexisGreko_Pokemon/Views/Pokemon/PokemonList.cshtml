@@ -3,7 +3,7 @@
         width: 100%;
         border-collapse: collapse;
         font-size: 25px;
-        background-color: white;
+        background-color: lightblue;
         border: 1px solid black;
     }
 
@@ -15,14 +15,15 @@
         }
 
         .pokemon-table th {
-            background-color: white;
-            font-size: 25px;
+            background-color: blue;
+            font-size: 20px;
+            color: white;
         }
 
     .pagination {
         margin-top: 25px;
         text-align: center;
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .pokemon-table a {
@@ -46,8 +47,8 @@
         }
 
             .pagination a:hover {
-                background-color: black;
-                color: white;
+                background-color: lightblue;
+                color: black;
             }
 
     h2 {
@@ -58,21 +59,20 @@
 
             @model IEnumerable<Prefinals_AgonoyAlexisGreko_Pokemon.Models.Pokemon>
 @{
-    ViewBag.Title = "Pokémon List";
+    ViewBag.Title = "Pokemon List";
 }
 
-<h2>Pokémon List</h2>
+<h2>Pokemon List</h2>
 
 <table class="pokemon-table">
     <thead>
         <tr>
-            <th>Pokémon</th>
-            <th>Pokémon</th>
-            <th>Pokémon</th>
+            <th>Pokemon</th>
+            <th>Pokemon</th>
         </tr>
     </thead>
     <tbody>
-        @for (int i = 0; i < Model.Count(); i += 3)
+        @for (int i = 0; i < Model.Count(); i += 2)
         {
             <tr>
                 <td>
@@ -85,12 +85,6 @@
                     @if (i + 1 < Model.Count())
                     {
                         <a href="@Url.Action("Details", "Pokemon", new { name = Model.ElementAt(i + 1).Name })">@Model.ElementAt(i + 1).Name</a>
-                    }
-                </td>
-                <td>
-                    @if (i + 2 < Model.Count())
-                    {
-                        <a href="@Url.Action("Details", "Pokemon", new { name = Model.ElementAt(i + 2).Name })">@Model.ElementAt(i + 2).Name</a>
                     }
                 </td>
             </tr>
