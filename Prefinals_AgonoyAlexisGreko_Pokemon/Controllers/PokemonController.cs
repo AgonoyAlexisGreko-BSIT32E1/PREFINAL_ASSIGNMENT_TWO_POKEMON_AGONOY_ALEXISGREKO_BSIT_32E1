@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json.Linq;
+using Prefinals_AgonoyAlexisGreko_Pokemon.Models;
 
 namespace Prefinals_AgonoyAlexisGreko_Pokemon.Controllers
 {
