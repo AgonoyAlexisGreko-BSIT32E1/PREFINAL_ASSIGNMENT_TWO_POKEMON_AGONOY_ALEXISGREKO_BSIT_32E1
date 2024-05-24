@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\Prefinals_AgonoyAlexisGreko_Pokemon.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\USER\\Documents\\GitHub\\PREFINAL_ASSIGNMENT_TWO_POKEMON_AGONOY_ALEXISGREKO_BSIT_32E1\\Prefinals_AgonoyAlexisGreko_Pokemon\\wwwroot\\css\\PokemonDetails.css",
+      "PackagePath": "staticwebassets\\css\\PokemonDetails.css"
+    },
+    {
+      "Id": "C:\\Users\\USER\\Documents\\GitHub\\PREFINAL_ASSIGNMENT_TWO_POKEMON_AGONOY_ALEXISGREKO_BSIT_32E1\\Prefinals_AgonoyAlexisGreko_Pokemon\\wwwroot\\css\\PokemonList.css",
+      "PackagePath": "staticwebassets\\css\\PokemonList.css"
+    },
+    {
       "Id": "C:\\Users\\USER\\Documents\\GitHub\\PREFINAL_ASSIGNMENT_TWO_POKEMON_AGONOY_ALEXISGREKO_BSIT_32E1\\Prefinals_AgonoyAlexisGreko_Pokemon\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
